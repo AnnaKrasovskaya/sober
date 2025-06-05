@@ -13,7 +13,7 @@
             <a href="#"><img src="logo.png" alt="" /></a>
           </div>
           <div class="menu">
-            <a href="#">О нас</a>
+            <a href="/index.html">О нас</a>
             <a href="#">Металлообработка</a>
             <a href="#">Оплата и доставка</a>
             <a href="#">Наши работы</a>
@@ -70,24 +70,17 @@
         <h2>Наше оборудование</h2>
         <div class="container">
           <div class="block">
-            <img src="pila.jpg" alt="" />
+            <img src="stanok.png" alt="" />
             <div class="text">
-              <h3>Монтажная (отрезная) пила AEG Powertools SMT 355</h3>
+              <h3>
+                Высокоточный станок оптоволоконной лазерной резки с ЧПУ HOUNGNIU
+                HN 3015C
+              </h3>
               <p>
                 Для пиления высокоуглеродистых металлов и стали, как под прямым
                 углом, так и под углом 45 градусов
               </p>
             </div>
-          </div>
-          <div class="block">
-            <div class="text">
-              <h3>Ножницы гильотинные электромеханические Н3121</h3>
-              <p>
-                Поперечная резка листа толщиной до 12,5 мм и шириной до 2000 мм
-                производится за один ход ножа
-              </p>
-            </div>
-            <img src="nojnizy.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -217,28 +210,23 @@
             <p>Оставьте свой номер телефона и мы свяжемся с Вами</p>
           </div>
           <div class="rightBlock">
-            <form action="#" method="post">
-              <div class="form-group">
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Имя"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  placeholder="Номер телефона"
-                  required
-                  pattern="[0-9]{10}"
-                />
-              </div>
-              <button type="submit">Отправить</button>
-            </form>
+            <div class="form">
+              <form action="">
+                <input type="name" placeholder="Ваше имя" />
+                <input type="phone" placeholder="Номер телефона" />
+                <p>Прикрепите файл при наличии</p>
+                <div class="inputWrapper">
+                  <input type="file" class="inputFile" id="input_file" />
+                  <label for="input_file" class="fileButton">
+                    <span class="input_file_icon"
+                      ><img src="download.png" alt=""
+                    /></span>
+                    <span class="input_file_button">Выберите файл</span>
+                  </label>
+                </div>
+              </form>
+            </div>
+            <button>Отправить</button>
           </div>
         </div>
       </div>
@@ -275,34 +263,98 @@
           </div>
         </div>
       </div>
+      <div class="blockContacts simple">
+        <h2>Контакты</h2>
+        <div class="container">
+          <div class="block">
+            <img src="location.png" alt="" />
+            <p>Адрес:</p>
+            <span>г. Минск, ул. Ванеева, 42</span>
+          </div>
+          <div class="block">
+            <img src="pnone.png" alt="" />
+            <p>Телефон:</p>
+            <span>+375 (44) 538-14-11</span>
+            <span>+375 (33) 677-14-11</span>
+          </div>
+          <div class="block">
+            <img src="time.png" alt="" />
+            <p>Время работы:</p>
+            <span>ПН-СБ</span>
+            <span>08:00 - 18:00</span>
+          </div>
+          <div class="block">
+            <img src="email.png" alt="" />
+            <p>E-mail:</p>
+            <span>soberwelder@mail.ru</span>
+          </div>
+        </div>
+      </div>
+      <div class="requirements">
+        <div class="container">
+          <div class="blockDocuments">
+            <h3>Требования к документации</h3>
+            <ul>
+              <li>
+                Необходимо предоставить чертежи разверток или другую
+                документацию в форматах DXF, DWG, CDR, SLDPRT (AutoCAD,
+                Компас-3D, CorelDRAW, SOLIDWORKS)
+              </li>
+              <li>Масштаб деталей на чертежах должен быть 1:1</li>
+              <li>
+                Контуры деталей должны состоять из простых элементов: отрезков,
+                дуг и окружностей
+              </li>
+              <li>Все кривые должны быть замкнуты</li>
+              <li>
+                Файл не должен содержать сплайнов, пересекающихся или
+                накладывающихся контуров, а также разрывов
+              </li>
+            </ul>
+          </div>
+          <div class="blockDocuments">
+            <h3>Требования к материалам заказчика</h3>
+            <ul>
+              <li>Материал должен быть свободен от коррозии и заломов</li>
+              <li>Заготовка должна иметь форму прямоугольника</li>
+              <li>Прогиб листа на длине 2500 мм должен быть не более 50 мм</li>
+              <li>Максимальные размеры листа: 3000х1500 мм</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </main>
-    <footer class="simple">
-      <h2>Контакты</h2>
+    <footer>
       <div class="container">
-        <div class="block">
-          <img src="location.png" alt="" />
-          <p>Адрес:</p>
-          <span>г. Минск, ул. Ванеева, 42</span>
+        <div class="logo"><h2>Soberwelder</h2></div>
+        <div class="company">
+          <h3>Компания</h3>
+          <a href="#">О нас</a>
+          <a href="#">Оплата и доставка</a>
+          <a href="#">Наши работы</a>
+          <a href="#">Сертификаты</a>
         </div>
-        <div class="block">
-          <img src="pnone.png" alt="" />
-          <p>Телефон:</p>
-          <span>+375 (44) 538-14-11</span>
-          <span>+375 (33) 677-14-11</span>
-        </div>
-        <div class="block">
-          <img src="time.png" alt="" />
-          <p>Время работы:</p>
-          <span>ПН-СБ</span>
-          <span>08:00 - 18:00</span>
-        </div>
-        <div class="block">
-          <img src="email.png" alt="" />
-          <p>E-mail:</p>
-          <span>soberwelder@mail.ru</span>
+        <div class="contacts">
+          <h3>Контакты</h3>
+          <div class="phone">
+            <div class="blockPhone">
+              <img src="iconsphone.png" alt="" />
+              <p>+ 375(44) 538-14-11</p>
+            </div>
+            <div class="blockPhone">
+              <img src="iconsphone.png" alt="" />
+              <p>+ 375(33) 677-14-11</p>
+            </div>
+          </div>
+          <div class="socials">
+            <a href=""><img src="telegram.png" alt="" /></a>
+            <a href=""><img src="viber.png" alt="" /></a>
+            <a href=""><img src="instagram.png" alt="" /></a>
+          </div>
         </div>
       </div>
     </footer>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

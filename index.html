@@ -135,7 +135,25 @@
             <p>Хотите уточнить стоимость наших услуг?</p>
             <span>Свяжитесь с нами или оставьте заявку</span>
           </div>
-          <div class="rightBlock"><button>Ваш запрос</button></div>
+          <div class="rightBlock">
+            <div class="form">
+              <form action="">
+                <input type="name" placeholder="Ваше имя" />
+                <input type="phone" placeholder="Номер телефона" />
+                <p>Прикрепите файл при наличии</p>
+                <div class="inputWrapper">
+                  <input type="file" class="inputFile" id="input_file" />
+                  <label for="input_file" class="fileButton">
+                    <span class="input_file_icon"
+                      ><img src="download.png" alt=""
+                    /></span>
+                    <span class="input_file_button">Выберите файл</span>
+                  </label>
+                </div>
+              </form>
+            </div>
+            <button>Отправить</button>
+          </div>
         </div>
       </div>
       <div class="ourServices">
@@ -163,7 +181,7 @@
           </div>
           <div class="block">
             <div class="icon"><img src="iconServices.png" alt="" /></div>
-            <div class="text">Сварочные работы по спецтехнике</div>
+            <div class="text">Емкости из нержавеющей стали</div>
           </div>
         </div>
       </div>
@@ -290,56 +308,82 @@
             <p>Оставьте свой номер телефона и мы свяжемся с Вами</p>
           </div>
           <div class="rightBlock">
-            <form action="#" method="post">
-              <div class="form-group">
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Имя"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  placeholder="Номер телефона"
-                  required
-                  pattern="[0-9]{10}"
-                />
-              </div>
-              <button type="submit">Отправить</button>
-            </form>
+            <div class="form">
+              <form action="">
+                <input type="name" placeholder="Ваше имя" />
+                <input type="phone" placeholder="Номер телефона" />
+                <p>Прикрепите файл при наличии</p>
+                <div class="inputWrapper">
+                  <input type="file" class="inputFile" id="input_file" />
+                  <label for="input_file" class="fileButton">
+                    <span class="input_file_icon"
+                      ><img src="download.png" alt=""
+                    /></span>
+                    <span class="input_file_button">Выберите файл</span>
+                  </label>
+                </div>
+              </form>
+            </div>
+            <button>Отправить</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="blockContacts">
+        <h2>Контакты</h2>
+        <div class="container">
+          <div class="block">
+            <img src="location.png" alt="" />
+            <p>Адрес:</p>
+            <span>г. Минск, ул. Ванеева, 42</span>
+          </div>
+          <div class="block">
+            <img src="pnone.png" alt="" />
+            <p>Телефон:</p>
+            <span>+375 (44) 538-14-11</span>
+            <span>+375 (33) 677-14-11</span>
+          </div>
+          <div class="block">
+            <img src="time.png" alt="" />
+            <p>Время работы:</p>
+            <span>ПН-СБ</span>
+            <span>08:00 - 18:00</span>
+          </div>
+          <div class="block">
+            <img src="email.png" alt="" />
+            <p>E-mail:</p>
+            <span>soberwelder@mail.ru</span>
           </div>
         </div>
       </div>
     </main>
     <footer>
-      <h2>Контакты</h2>
       <div class="container">
-        <div class="block">
-          <img src="location.png" alt="" />
-          <p>Адрес:</p>
-          <span>г. Минск, ул. Ванеева, 42</span>
+        <div class="logo"><h2>Soberwelder</h2></div>
+        <div class="company">
+          <h3>Компания</h3>
+          <a href="#">О нас</a>
+          <a href="#">Оплата и доставка</a>
+          <a href="#">Наши работы</a>
+          <a href="#">Сертификаты</a>
         </div>
-        <div class="block">
-          <img src="pnone.png" alt="" />
-          <p>Телефон:</p>
-          <span>+375 (44) 538-14-11</span>
-          <span>+375 (33) 677-14-11</span>
-        </div>
-        <div class="block">
-          <img src="time.png" alt="" />
-          <p>Время работы:</p>
-          <span>ПН-СБ</span>
-          <span>08:00 - 18:00</span>
-        </div>
-        <div class="block">
-          <img src="email.png" alt="" />
-          <p>E-mail:</p>
-          <span>soberwelder@mail.ru</span>
+        <div class="contacts">
+          <h3>Контакты</h3>
+          <div class="phone">
+            <div class="blockPhone">
+              <img src="iconsphone.png" alt="" />
+              <p>+ 375(44) 538-14-11</p>
+            </div>
+            <div class="blockPhone">
+              <img src="iconsphone.png" alt="" />
+              <p>+ 375(33) 677-14-11</p>
+            </div>
+          </div>
+          <div class="socials">
+            <a href=""><img src="telegram.png" alt="" /></a>
+            <a href=""><img src="viber.png" alt="" /></a>
+            <a href=""><img src="instagram.png" alt="" /></a>
+          </div>
         </div>
       </div>
     </footer>
