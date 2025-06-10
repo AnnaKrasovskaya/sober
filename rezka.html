@@ -14,10 +14,20 @@
           </div>
           <div class="menu">
             <a href="/index.html">О нас</a>
-            <a href="#">Металлообработка</a>
+            <div class="menu__dropdown">
+              <a href="#">Металлообработка </a>
+              <div class="menu__dropdown-content">
+                <a href="/rezka.html">Лазерная резка</a>
+                <a href="#">Гибка металла</a>
+                <a href="/swarka.html">Сварочные работы</a>
+                <a href="#">Полимерная покраска</a>
+                <a href="#">Изготовление и установка металлоконструкций</a>
+                <a href="#">Емкости из нержавеющей стали</a>
+              </div>
+            </div>
             <a href="#">Оплата и доставка</a>
-            <a href="#">Наши работы</a>
-            <a href="#">Сертификаты</a>
+            <a href="/works.html">Наши работы</a>
+            <a href="/sertificate.html">Сертификаты</a>
             <a href="#">Контакты</a>
           </div>
           <div class="contacts">
@@ -42,7 +52,19 @@
     </header>
     <main class="lazernayaRezka">
       <div class="container">
-        <h2>Лазерная резка металла</h2>
+        <h1 class="title">Лазерная резка металла</h1>
+        <div class="video">
+          <video
+            class="alignleft video"
+            src="./video-1.MOV"
+            autoplay
+            muted
+            loop
+          >
+            <source src="video-1.MOV" type="video/mp4" />
+          </video>
+        </div>
+
         <p>
           Лазерная резка металла является одним из наиболее прогрессивных и
           инновационных методов обработки листового металла. Этот метод
@@ -108,106 +130,81 @@
       <div class="advanteges">
         <h2>Преимущества лазерной резки металла</h2>
         <div class="container">
-          <div class="block">
-            <div class="firstLine">
-              <img src="punkt.png" alt="" />
-              <p>Высокая точность</p>
+          <div class="wrapperAdvantages">
+            <div class="block">
+              <div class="firstLine">
+                <img src="punkt.png" alt="" />
+                <p>Высокая точность</p>
+              </div>
             </div>
-            <span
-              >Лазерная резка обеспечивает очень точные и чистые разрезы, что
-              минимизирует необходимость в дополнительной обработке</span
-            >
+            <div class="block">
+              <div class="firstLine">
+                <img src="punkt.png" alt="" />
+                <p>Качество реза</p>
+              </div>
+            </div>
+            <div class="block">
+              <div class="firstLine">
+                <img src="punkt.png" alt="" />
+                <p>Минимальные отходы</p>
+              </div>
+            </div>
+            <div class="block">
+              <div class="firstLine">
+                <img src="punkt.png" alt="" />
+                <p>Быстрота обработки</p>
+              </div>
+            </div>
+            <div class="block">
+              <div class="firstLine">
+                <img src="punkt.png" alt="" />
+                <p>Гибкость в дизайне</p>
+              </div>
+            </div>
+            <div class="block">
+              <div class="firstLine">
+                <img src="punkt.png" alt="" />
+                <p>Минимальное термическое воздействие</p>
+              </div>
+            </div>
+            <div class="block">
+              <div class="firstLine">
+                <img src="punkt.png" alt="" />
+                <p>Автоматизация и повторяемость</p>
+              </div>
+            </div>
+            <div class="block">
+              <div class="firstLine">
+                <img src="punkt.png" alt="" />
+                <p>Универсальность материалов</p>
+              </div>
+            </div>
+            <div class="block">
+              <div class="firstLine">
+                <img src="punkt.png" alt="" />
+                <p>Сложная геометрия</p>
+              </div>
+            </div>
           </div>
-          <div class="block">
-            <div class="firstLine">
-              <img src="punkt.png" alt="" />
-              <p>Качество реза</p>
-            </div>
-            <span
-              >Лазеры создают гладкие и ровные кромки без заусенцев, что
-              улучшает общее качество изделия</span
-            >
-          </div>
-          <div class="block">
-            <div class="firstLine">
-              <img src="punkt.png" alt="" />
-              <p>Минимальные отходы</p>
-            </div>
-            <span
-              >За счет высокой точности резки снижается количество отходов
-              материала, что экономически выгодно и экологично</span
-            >
-          </div>
-          <div class="block">
-            <div class="firstLine">
-              <img src="punkt.png" alt="" />
-              <p>Быстрота обработки</p>
-            </div>
-            <span
-              >Лазерные станки часто работают быстрее, чем традиционные методы
-              резки, особенно при массовом производстве</span
-            >
-          </div>
-          <div class="block">
-            <div class="firstLine">
-              <img src="punkt.png" alt="" />
-              <p>Гибкость в дизайне</p>
-            </div>
-            <span
-              >Возможность легко изменять параметры позволяет быстро переходить
-              от одного дизайна к другому, что особенно полезно для
-              прототипирования и небольших серий</span
-            >
-          </div>
-          <div class="block">
-            <div class="firstLine">
-              <img src="punkt.png" alt="" />
-              <p>Минимальное термическое воздействие</p>
-            </div>
-            <span
-              >Лазерная резка минимизирует зону термического воздействия, снижая
-              риск деформации материала</span
-            >
-          </div>
-          <div class="block">
-            <div class="firstLine">
-              <img src="punkt.png" alt="" />
-              <p>Автоматизация и повторяемость</p>
-            </div>
-            <span
-              >Современные лазерные системы могут быть легко интегрированы в
-              автоматизированные процессы, обеспечивая высокую повторяемость и
-              точность</span
-            >
-          </div>
-          <div class="block">
-            <div class="firstLine">
-              <img src="punkt.png" alt="" />
-              <p>Универсальность материалов</p>
-            </div>
-            <span
-              >Лазерная резка подходит для широкого спектра материалов, включая
-              различные виды металлов, такие как сталь, алюминий, медь и
-              титан</span
-            >
-          </div>
-          <div class="block">
-            <div class="firstLine">
-              <img src="punkt.png" alt="" />
-              <p>Сложная геометрия</p>
-            </div>
-            <span
-              >Лазеры способны обрабатывать сложные формы и детали, которые
-              сложно или невозможно выполнить другими методами</span
-            >
+          <div class="video">
+            <video
+              class="alignright video"
+              src="video-2.MOV"
+              autoplay
+              muted
+              loop
+            ></video>
           </div>
         </div>
       </div>
-      <div class="secondForm">
+
+      <div class="firstForm">
         <div class="container">
           <div class="leftBlock">
-            <h2>Закажите обратный звонок для подробной консультации</h2>
-            <p>Оставьте свой номер телефона и мы свяжемся с Вами</p>
+            <h2 class="firstForm__title">
+              Хотите уточнить стоимость наших услуг?
+            </h2>
+            <span>Свяжитесь с нами или оставьте заявку</span>
           </div>
           <div class="rightBlock">
             <div class="form">
@@ -224,9 +221,9 @@
                     <span class="input_file_button">Выберите файл</span>
                   </label>
                 </div>
+                <button>Отправить</button>
               </form>
             </div>
-            <button>Отправить</button>
           </div>
         </div>
       </div>
@@ -263,7 +260,7 @@
           </div>
         </div>
       </div>
-      <div class="blockContacts simple">
+      <div class="blockContacts">
         <h2>Контакты</h2>
         <div class="container">
           <div class="block">
@@ -291,6 +288,7 @@
         </div>
       </div>
       <div class="requirements">
+        <h2>Требования к заказчику</h2>
         <div class="container">
           <div class="blockDocuments">
             <h3>Требования к документации</h3>
@@ -329,10 +327,10 @@
         <div class="logo"><h2>Soberwelder</h2></div>
         <div class="company">
           <h3>Компания</h3>
-          <a href="#">О нас</a>
+          <a href="/index.html">О нас</a>
           <a href="#">Оплата и доставка</a>
-          <a href="#">Наши работы</a>
-          <a href="#">Сертификаты</a>
+          <a href="/works.html">Наши работы</a>
+          <a href="/sertificate.html">Сертификаты</a>
         </div>
         <div class="contacts">
           <h3>Контакты</h3>

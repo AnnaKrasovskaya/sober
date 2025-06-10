@@ -13,11 +13,21 @@
             <a href="#"><img src="logo.png" alt="" /></a>
           </div>
           <div class="menu">
-            <a href="#">О нас</a>
-            <a href="#">Металлообработка</a>
+            <a href="/index.html">О нас</a>
+            <div class="menu__dropdown">
+              <a href="#">Металлообработка </a>
+              <div class="menu__dropdown-content">
+                <a href="/rezka.html">Лазерная резка</a>
+                <a href="#">Гибка металла</a>
+                <a href="#">Сварочные работы</a>
+                <a href="#">Полимерная покраска</a>
+                <a href="#">Изготовление и установка металлоконструкций</a>
+                <a href="#">Емкости из нержавеющей стали</a>
+              </div>
+            </div>
             <a href="#">Оплата и доставка</a>
-            <a href="#">Наши работы</a>
-            <a href="#">Сертификаты</a>
+            <a href="/works.html">Наши работы</a>
+            <a href="/sertificate.html">Сертификаты</a>
             <a href="#">Контакты</a>
           </div>
           <div class="contacts">
@@ -44,7 +54,7 @@
       <div class="title">
         <div class="container"><h2>Наши работы</h2></div>
       </div>
-      <div class="rezka2">
+      <div class="wrapperRezka">
         <div class="container">
           <h3>Лазерная резка</h3>
           <div class="grid-container">
@@ -57,12 +67,54 @@
           </div>
         </div>
       </div>
-      <div class="swarka2">
+      <div class="wrapperSwarka">
         <div class="container">
           <h3>Сварочные работы</h3>
+          <div class="grid-container">
+            <div><img src="swarka1.jpg" alt="" /></div>
+            <div><img src="swarka2.jpg" alt="" /></div>
+            <div><img src="swarka3.jpg" alt="" /></div>
+            <div><img src="swarka4.jpg" alt="" /></div>
+            <div><img src="swarka5.jpg" alt="" /></div>
+            <div><img src="swarka6.jpg" alt="" /></div>
+          </div>
         </div>
       </div>
     </main>
+    <footer>
+      <div class="container">
+        <div class="logo"><h2>Soberwelder</h2></div>
+        <div class="company">
+          <h3>Компания</h3>
+          <a href="/index.html">О нас</a>
+          <a href="#">Оплата и доставка</a>
+          <a href="/works.html">Наши работы</a>
+          <a href="/sertificate.html">Сертификаты</a>
+        </div>
+        <div class="contacts">
+          <h3>Контакты</h3>
+          <div class="phone">
+            <div class="blockPhone">
+              <img src="iconsphone.png" alt="" />
+              <p>+ 375(44) 538-14-11</p>
+            </div>
+            <div class="blockPhone">
+              <img src="iconsphone.png" alt="" />
+              <p>+ 375(33) 677-14-11</p>
+            </div>
+            <div class="blockPhone">
+              <img src="mailIcon.png" alt="" />
+              <p>soberwelder@mail.ru</p>
+            </div>
+          </div>
+          <div class="socials">
+            <a href=""><img src="telegram.png" alt="" /></a>
+            <a href=""><img src="viber.png" alt="" /></a>
+            <a href=""><img src="instagram.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
